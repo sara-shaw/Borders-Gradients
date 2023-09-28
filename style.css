@@ -1,12 +1,53 @@
-h3 {
-  color: rgb(255, 219, 176);
+body {
+  background-color: rgb(70, 70, 70) !important;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  color: rgb(250, 209, 158) !important;
+  font-weight: bolder !important;
+}
+
+h4 {
+  color: white !important;
+}
+
+p {
+  margin-top: 10px !important;
+  color: white !important;
 }
 
 .btn {
-  background-color: rgb(255, 219, 176);
+  background-color: rgb(250, 209, 158);
   color: black;
+  margin: 20px;
+  font-weight: bold !important;
 }
 
-.fa-solid {
-  color: rgb(255, 219, 176);
+.icon {
+  color: rgb(250, 209, 158);
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.card {
+  outline: 8px solid rgb(70, 70, 70);
+  background-image: linear-gradient(
+    to right,
+    rgb(88, 88, 88) 50%,
+    rgb(59, 59, 59) 50%
+  );
+  height: 425px;
+  padding: 10px;
+  border: 8px double rgb(250, 209, 158);
+  border-radius: 25px 25px 100px 100px;
+  box-shadow: 0 0 50px 0 black;
+}
+
+hr {
+  margin: 1px !important;
+  border: 0.25px solid rgb(116, 116, 116) !important;
 }
